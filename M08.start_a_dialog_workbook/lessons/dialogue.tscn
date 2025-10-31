@@ -121,6 +121,11 @@ layout_mode = 2
 texture = ExtResource("8_rduj4")
 expand_mode = 2
 
+[node name="Button" type="Button" parent="HBoxContainer"]
+z_index = -1
+layout_mode = 2
+text = "                                                                    "
+
 [node name="AspectRatioContainer" type="AspectRatioContainer" parent="HBoxContainer"]
 layout_mode = 2
 ratio = 1.6096
